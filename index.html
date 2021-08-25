@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/project/assets/images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./project/assets/styles/styles.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="illustrationContainer">
+        <img
+          src="./project/assets/images/svg/illustration-woman-online-mobile.svg"
+          srcset="
+            ./project/assets/images/svg/illustration-woman-online-desktop.svg 1x,
+            ./project/assets/images/svg/illustration-woman-online-mobile.svg  2x
+          "
+          class="illustrationContainer__image"
+          alt="illustration"
+        />
+        <img
+          class="illustrationContainer__imageBox"
+          src="./project/assets/images/svg/illustration-box-desktop.svg"
+          alt="box_desktop"
+        />
+        <img
+          src="./project/assets/images/svg/bg-pattern-mobile.svg"
+          srcset="./project/assets/images/svg/bg-pattern-desktop.svg 1x, ./project/assets/images/svg/bg-pattern-mobile.svg 2x"
+          class="illustrationContainer__imageBg"
+          alt="illustration-bg"
+        />
+      </div>
+      <article class="accordionsContainer">
+        <h1 class="accordionsContainer__title">FAQ</h1>
+        <section class="accordion">
+          <div class="accordion__btn">
+            <h2 class="accordion__title">How many team members can I invite?</h2>
+            <img class="accordion__image" src="./project/assets/images/svg/icon-arrow-down.svg" alt="icon-arrow" />
+          </div>
+          <p class="accordion__paragraph">
+            You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.
+          </p>
+        </section>
+        <section class="accordion">
+          <div class="accordion__btn">
+            <h2 class="accordion__title">What is the maximum file upload size?</h2>
+            <img class="accordion__image" src="./project/assets/images/svg/icon-arrow-down.svg" alt="icon-arrow" />
+          </div>
+          <p class="accordion__paragraph">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </section>
+        <section class="accordion">
+          <div class="accordion__btn">
+            <h2 class="accordion__title">How do I reset my password?</h2>
+            <img class="accordion__image" src="./project/assets/images/svg/icon-arrow-down.svg" alt="icon-arrow" />
+          </div>
+          <p class="accordion__paragraph">
+            Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed
+            to you.
+          </p>
+        </section>
+        <section class="accordion">
+          <div class="accordion__btn">
+            <h2 class="accordion__title">Can I cancel my subscription?</h2>
+            <img class="accordion__image" src="./project/assets/images/svg/icon-arrow-down.svg" alt="icon-arrow" />
+          </div>
+          <p class="accordion__paragraph">Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </section>
+        <section class="accordion">
+          <div class="accordion__btn">
+            <h2 class="accordion__title">Do you provide additional support?</h2>
+            <img class="accordion__image" src="./project/assets/images/svg/icon-arrow-down.svg" alt="icon-arrow" />
+          </div>
+          <p class="accordion__paragraph">
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+          </p>
+        </section>
+      </article>
+    </div>
+    <script src="./project/assets/javascript/scripts.js"></script>
+  </body>
+</html>
